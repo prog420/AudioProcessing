@@ -2,6 +2,8 @@
 Supported libraries: `librosa`, `pydub`.
 ___
 ##### CLI Usage:
+`pip install -r requirements.txt`
+
 `python main.py`
 
 ##### CLI Arguments:
@@ -16,7 +18,7 @@ ___
 `-d`, `--db_diff` - dB difference for `pydub` (default: `0`)
 
 ___
-##### Example:
+##### Examples:
 1. Set volume to 90% of its default value using `librosa`:
 
 `python main.py -p librosa -f 0.9`
